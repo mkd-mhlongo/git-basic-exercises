@@ -1,0 +1,1000 @@
+  239  clear
+  240  ls
+  241  ls //
+  242  ls /
+  243  ls cd
+  244  ls ..
+  245  clear
+  246  ls
+  247  ls test
+  248  ls test../
+  249  ls test/
+  250  clear
+  251  ls
+  252  ls -l
+  253  ls -l /mkd
+  254  ls -l /home
+  255  clear
+  256  ls
+  257  cd test/bash
+  258  ~/Videos -l
+  259  ls -l /Videos
+  260  ~/Videos -l /home
+  261  ls -l /home
+  262  cd
+  263  ls -l
+  264  clear
+  265  ls -l /home
+  266  ls
+  267  cd test/bash
+  268  ls -l /home
+  269  ls .. -l 
+  270  ls
+  271  clear
+  272  ls
+  273  ls .. -l /home
+  274  clear
+  275  ls -R
+  276  cd
+  277  ls -R
+  278  clear
+  279  ls -R
+  280  clear
+  281  ls -l -t -r
+  282  ls -r
+  283  ls
+  284  ls -l
+  285  clear
+  286  ls -l
+  287  ls -l -r
+  288  clear
+  289  ls -l
+  290  ls -l -t
+  291  ls -l -t -r
+  292  clear
+  293  ls -lh
+  294  ls
+  295  ls -l
+  296  clear
+  297  ls -ltr
+  298  ls -tr
+  299  ls -tR
+  300  clear
+  301  man ls
+  302  ls
+  303  ls -r
+  304  ls man
+  305  man ls
+  306  clear
+  307  ls -R
+  308  clear
+  309  man man
+  310  man cd
+  311  clear
+  312  man cd
+  313  cd ls
+  314  man ls
+  315  man cd
+  316  man ls
+  317  man man
+  318  man mkdir
+  319  man rmkdir
+  320  man rmdir
+  321  clear
+  322  ls
+  323  rmdir bash
+  324  rmdir test/bash
+  325  ls
+  326  ls test
+  327  ls test..
+  328  ls test ..
+  329  cd test
+  330  ls
+  331  cd 
+  332  clear
+  333  ls
+  334  cd
+  335  cd test/
+  336  cd
+  337  clear
+  338  ls
+  339  touch heaven.txt
+  340  ls
+  341  touch earth.txt
+  342  clear
+  343  ls
+  344  mv earth.txt test
+  345  ls
+  346  mv heaven.txt test/
+  347  clear
+  348  ls
+  349  ls test
+  350  ls
+  351  clear
+  352  ls
+  353  mv *h test/
+  354  mv *t test/
+  355  mv *rt* test/
+  356  mv *he* test/
+  357  clear
+  358  ls
+  359  mv *.txt temp/
+  360  clear
+  361  ls
+  362  ls test ..
+  363  cd test
+  364  mv *.txt home/
+  365  ls
+  366  pwd
+  367  mv *.txt /home/
+  368  mv *.txt /home
+  369  pw
+  370  pwd
+  371  mv *.txt /home/mkd
+  372  ls
+  373  clear
+  374  cd
+  375  ls
+  376  mv *t test
+  377  ls
+  378  cd test
+  379  ls
+  380  mv *he* ../..
+  381  mv *he* ../../home
+  382  mv *he* ../mkd/home/
+  383  ks
+  384  ls
+  385  mv *he* /mkd/home/
+  386  ls
+  387  ls ..
+  388  mv *.txt cd
+  389  mv *.txt /mkd/home
+  390  mv *.txt /mkd/home/
+  391  clear
+  392  ls
+  393  mv *txt ..
+  394  ls
+  395  cd
+  396  ls
+  397  man ?
+  398  ls ?
+  399  clear
+  400  ls
+  401  ?.txt test
+  402  .txt?
+  403  earth.txt?
+  404  "earth.txt"?
+  405  earth?
+  406  man 7 glob
+  407  earth ?
+  408  earth "?"
+  409  e "?"
+  410  man 7 glob
+  411  ear?th
+  412  ls ea?th
+  413  ls earth?
+  414  clear
+  415  ls
+  416  ls .txt?
+  417  e??th
+  418  ls e??th
+  419  ls -l
+  420  ls -l ea?th
+  421  ls -l .txt?
+  422  clear
+  423  ls
+  424  touch oad.txt
+  425  touch obd.txt
+  426  o?d
+  427  ls o?d
+  428  ls -l o?d
+  429  clear
+  430  ls
+  431  rm oad.txt
+  432  rm obd.txt
+  433  ls
+  434  clear
+  435  ls
+  436  mkdir obd
+  437  mkdir oad
+  438  ls
+  439  clear
+  440  o?d
+  441  ls
+  442  clear
+  443  ls
+  444  ls -l
+  445  ls -l o?d
+  446  ls 0?d
+  447  ls -l  o*d
+  448  clear
+  449  ls
+  450  ls -l .txt?
+  451  clear
+  452  ls
+  453  touch ord.txt
+  454  touch omd.txt
+  455  clear
+  456  ls
+  457  ls -l o?d
+  458  ls -l o?d.txt
+  459  clear
+  460  ls
+  461  mv oad/test
+  462  md oad.txt/test
+  463  mv oad.txt/test
+  464  ls
+  465  mv oad/test
+  466  mv oad/test/
+  467  ls
+  468  cleae
+  469  clear
+  470  ls
+  471  mv earth.tx test/
+  472  mv earth.tx /test
+  473  clear
+  474  ls
+  475  mv oad/test
+  476  mv oad/test/
+  477  mv --help
+  478  clear
+  479  ls
+  480  mv earth.txt test/
+  481  mv oad test
+  482  mkdir Learmomg_unix
+  483  rm Learnmomg_unix
+  484  rm Learnmomg_unixls
+  485  ls
+  486  rm Learmomg_unix
+  487  rm -i  Learmomg_unix
+  488  clear
+  489  mkdir old
+  490  mkdir old2
+  491  mkdir old3
+  492  ls
+  493  rm old3
+  494  clear
+  495  ls
+  496  mv old old2/
+  497  mkdir old3 old/old2/
+  498  cd ../..old2
+  499  cd ../old2
+  500  mv old2 old/
+  501  ls
+  502  mv old3 old/old2/
+  503  ls
+  504  ls old
+  505  ls .. old
+  506  ls ../../
+  507  clear
+  508  ls .. old
+  509  ls .. old/..
+  510  clear
+  511  ls ..
+  512  clear
+  513  ls old ..
+  514  clear
+  515  ls
+  516  cd old/old2
+  517  ls
+  518  mkdir old3
+  519  cd
+  520  mv old3/old
+  521  md old3 old
+  522  md old3 /old
+  523  mv old3 /old
+  524  mv old3/old
+  525  clear
+  526  ls
+  527  mv old3 old
+  528  clear
+  529  ls .. old
+  530  ls old/old2
+  531  mv old3 old
+  532  mv old3 /home/old
+  533  mv old3 /home/old/
+  534  mv old3 old
+  535  mv old3/old old
+  536  mv old3 old2/old
+  537  mv old3 /old
+  538  mv old3 /mkd/home/old
+  539  mv old3 ..
+  540  mv old/old2/old3 old
+  541  clear
+  542  ls
+  543  rm obd
+  544  rmdir old
+  545  rmdir obd
+  546  ls
+  547  rm omd.txt ord.txt
+  548  ls
+  549  rm heaven.txt
+  550  ls
+  551  clear
+  552  ls
+  553  cd old
+  554  ls
+  555  rm -i old2 old3
+  556  rmdir -i old2 old3
+  557  touch heaven.txt
+  558  mv heaven.txt old
+  559  cd
+  560  clear
+  561  ls
+  562  touch heaven.txt
+  563  clear
+  564  ls
+  565  mv heaven.txt old
+  566  cleaqr
+  567  clear
+  568  ls
+  569  cd old
+  570  ;s
+  571  clear
+  572  ls
+  573  rm -i heaven.txt
+  574  ls
+  575  cd
+  576  ls
+  577  rmdir old
+  578  cd old
+  579  rm -i o?d
+  580  ls
+  581  clear
+  582  ls
+  583  rm -i o?d
+  584  rm -i old1
+  585  rmdir -i old1
+  586  clear
+  587  ls
+  588  rmdir old1 old2 old3
+  589  ls
+  590  rmdir -i
+  591  clear
+  592  ls
+  593  cd..
+  594  cd
+  595  clear
+  596  ls
+  597  ls old
+  598  ls -l old
+  599  clear
+  600  ls
+  601  ls old
+  602  touch earth.txt
+  603  ls
+  604  clear
+  605  ls
+  606  cp earth.txt world.txt
+  607  touch bad
+  608  ls
+  609  cd old
+  610  touch angry
+  611  rm angry 
+  612  ls
+  613  touch ~/angry
+  614  ls ~
+  615  cp ~/angry
+  616  cp ~/angry .
+  617  ls
+  618  ls .
+  619  ls
+  620  ls ./
+  621  cd
+  622  ls .
+  623  ls
+  624  ls ./
+  625  clear
+  626  ls
+  627  ls .. old
+  628  rm -i old/angry
+  629  ls .. old
+  630  rmdir -i old
+  631  rmdir old
+  632  ls
+  633  clear
+  634  man cp
+  635  ls
+  636  rm angry
+  637  rm bad
+  638  rm earth.txt 
+  639  rm world.txt 
+  640  ls
+  641  mkdir sally
+  642  mdkir harry
+  643  ls
+  644  mkdir harry
+  645  ls
+  646  cleare
+  647  clear
+  648  ls
+  649  cp -r harry
+  650  cp -r harry sally
+  651  ls
+  652  ls .. sally
+  653  ls -r
+  654  ls -R
+  655  clear
+  656  ls
+  657  pwd
+  658  cp mkd -R sally
+  659  cp home/mkd -R sally
+  660  cp /home/mkd -R sally
+  661  clear
+  662  ls
+  663  cp -R harry sally
+  664  ls
+  665  ls ..sally
+  666  ls .. sally
+  667  cp -R harry sally
+  668  cp -r harry sally
+  669  ls
+  670  cp -r harry sally
+  671  ls
+  672  ls ..sally
+  673  ls .. sally
+  674  cp /home/mkd -r sally
+  675  ls .. sally
+  676  man -R
+  677  -R
+  678  clear
+  679  man
+  680  man -R
+  681  man --help
+  682  clear
+  683  ls -R
+  684  clear
+  685  ls
+  686  rmdir sally
+  687  rmdir sally/harry
+  688  rmdir sally
+  689  ls
+  690  ls mhlengi ..
+  691  clear
+  692  ls
+  693  echo "call me issac"
+  694  echo "call me issac." > opening_lines.txt
+  695  ls
+  696  ls opening_lines.txt 
+  697  ls opening_lines.txt ..
+  698  ls h
+  699  less
+  700  less h
+  701  less test
+  702  less -h test
+  703  less h test
+  704  less
+  705  less test
+  706  h
+  707  less opening_lines.txt 
+  708  clear
+  709  ls
+  710  echo "cause he was the child of the promise" << opening_lines.txt 
+  711  ls
+  712  cat opening_lines.txt 
+  713  q
+  714  <<
+  715  >>
+  716  quit
+  717  ls
+  718  cat opening_lines.txt 
+  719  echo "cause he was the child of the promise." >> opening_lines.txt 
+  720  cat opening_lines.txt 
+  721  less opening_lines.txt 
+  722  cat opening_lines.txt closing_lines.txt
+  723  cat opening_lines.txt > closing_lines.txt
+  724  ls closing_lines.txt 
+  725  cat closing_lines.txt 
+  726  ls
+  727  rm closing_lines.txt 
+  728  rm opening_lines.txt 
+  729  clear
+  730  ls
+  731  touch opening_text
+  732  ls
+  733  ls -l
+  734  clear
+  735  ls
+  736  echo "call me issac.: >> opening_txt
+  737  ls
+  738  rm opening_text 
+  739  ls
+  740  touch opening_lines.txt
+  741  ls
+  742  echo "call me issac." >> opening_lines.txt 
+  743  ls -h
+  744  ls -l
+  745  ls -lh
+  746  ls -l
+  747  clear
+  748  ls
+  749  mkdir whatever
+  750  mv opening_lines.txt whatever
+  751  clear
+  752  ls
+  753  cd whatever
+  754  ls-l
+  755  ls -l
+  756  wc opening_lines.txt 
+  757  wc -l opening_lines.txt 
+  758  less opening_lines.txt 
+  759  cat opening_lines.txt 
+  760  clear
+  761  ls
+  762  wc -l
+  763  clear
+  764  ls
+  765  wc -l opening_lines.txt 
+  766  wc opening_lines.txt 
+  767  clear
+  768  ls
+  769  nano opening_lines.txt 
+  770  clear
+  771  ls
+  772  wc opening_lines.txt 
+  773  wc -l opening_lines.txt 
+  774  cat opening_lines.txt 
+  775  clear
+  776  cd
+  777  clear
+  778  ls
+  779  echo $user
+  780  echo $USER
+  781  echo $HOME
+  782  echo $PATH
+  783  clear
+  784  ls
+  785  cd whatever
+  786  nano opening_lines.txt 
+  787  clear
+  788  ls
+  789  grep opening_lines.txt 
+  790  cat opening_lines.txt 
+  791  grep opening_lines.txt 
+  792  grep -w opening_lines.txt 
+  793  grep and opening_lines.txt 
+  794  grep -v was opening_lines.txt 
+  795  grep was opening_lines.txt 
+  796  grep -v was opening_lines.txt 
+  797  grep all opening_lines.txt 
+  798  grep as opening_lines.txt 
+  799  grep -i as opening_lines.txt 
+  800  grep -w in opening_lines.txt 
+  801  grep -w o opening_lines.txt 
+  802  grep -w o.. opening_lines.txt 
+  803  grep [aeiou]t opening_lines.txt 
+  804  grep -i [aeiou]t opening_lines.txt 
+  805  clear
+  806  cd
+  807  cd whatever
+  808  grep was opening_lines.txt | wc -c
+  809  grep was opening_lines.txt | sort | head -n 3| wc -c
+  810  sudo apt install git-all
+  811  sudo apt autoremove
+  812  git config --global user.name "Mhlengi Mhlongo"
+  813  git config --global user.email mhle.k.mhlongo@gmail.com
+  814  git config --global user.name "mkd-mhlongo"
+  815  git config --global user.email mhle.k.mhlongo@gmail.com
+  816  git config --global core.editor "code --wait"
+  817  git --version
+  818  git config --global init.defaultBranch main
+  819  git config --list
+  820  git config core.editor
+  821  git help congif
+  822  git help config
+  823  git config --help
+  824  git add -h
+  825  ls
+  826  rmdir test
+  827  cd test
+  828  ls
+  829  rm -i earth.txt 
+  830  clear
+  831  cd
+  832  ls
+  833  rmdir test
+  834  cd test
+  835  ls
+  836  rmdir oad
+  837  cd..
+  838  cd ..
+  839  clear
+  840  ls
+  841  rmdir test
+  842  rmdor harry
+  843  rmdir harry
+  844  clear
+  845  ls
+  846  rmdir whatever
+  847  cd whatever
+  848  ls
+  849  rm opening_lines.txt 
+  850  cd
+  851  clear
+  852  ls
+  853  rmdir whatever
+  854  clear
+  855  ls
+  856  mkdir repo_using_terminal
+  857  clear
+  858  ls
+  859  cd repo_using_terminal/
+  860  touch README.md
+  861  cd
+  862  clear
+  863  ls
+  864  cd repo_using_terminal/
+  865  git init
+  866  ls
+  867  git add README.md
+  868  git status
+  869  git add .
+  870  git status
+  871  clear
+  872  git commit -m "Added README.md to repo" -m "Attempting to use terminal to use git and push repo to github"
+  873  git status
+  874  touch .gitignore
+  875  touch log.txt
+  876  git add .
+  877  git status
+  878  git branch patch-1
+  879  git status
+  880  git checkout patch-1 
+  881  touch first_file.md
+  882  git status
+  883  git checkout main
+  884  git status
+  885  git add .
+  886  git status
+  887  git commit -m "Updated README.md" -m "Created first file."
+  888  clear
+  889  git status
+  890  git checkout patch-1
+  891  git checkout main
+  892  git remote 
+  893  git remote add origin https://github.com/mkd-mhlongo
+  894  git push -u origin master
+  895  git push -u origin main
+  896  git remote add origin https://github.com/mkd-mhlongo/whatever
+  897  git remote add origin git@github.com:mkd-mhlongo/whatever.git
+  898  git branch -M main
+  899  git push -u main
+  900  git push -u origin main
+  901  git remote add origin git@github.com:mkd-mhlongo/whatever.git
+  902  git branch -M main
+  903  git push -u origin main
+  904  git set-url origin git@github.com:mkd-mhlongo/whatever.git
+  905  clear
+  906  touch README.md
+  907  touch .gitignore
+  908  touch earth.txt
+  909  git status
+  910  git init
+  911  git status
+  912  git add .
+  913  git status
+  914  git commit README.md
+  915  clear
+  916  git status
+  917  git commit README.md
+  918  clear
+  919  git status
+  920  git commit -m "Added README.md to repository."
+  921  clear
+  922  git init
+  923  touch README.md
+  924  touch .gitignore
+  925  touch earth.txt
+  926  git add .
+  927  git status
+  928  git commit -m "Added README.md to repo." 
+  929  git status
+  930  clear
+  931  git status
+  932  git branch patch-1
+  933  git checkout patch-1
+  934  touch heaven.txt
+  935  git add .
+  936  git commit -m "Added a text file."
+  937  clear
+  938  git checkout main
+  939  git checkout patch-1
+  940  git checkout main
+  941  git merge patch-1
+  942  git status
+  943  git remote
+  944  git remote add origin git@github.com:mkd-mhlongo/using_terminal.git
+  945  git remote
+  946  git push -u origin main
+  947  git config --gloval user.name 'mkd-mhlongo'
+  948  git config --global user.name 'mkd-mhlongo'
+  949  git config --global user.email 'mhle.k.mhlongo@gmail.com'
+  950  git push -u origin main
+  951  ssh-keygen -t ed25519 -C "mhle.k.mhlongo@gmail.com"
+  952  sudo -s -H
+  953  ssh-keygen -t ed25519 -C "mhle.k.mhlongo@gmail.com"
+  954  Generating public/private ed25519 key pair.
+  955  sudo -s -H
+  956  ls
+  957  cd repo_using_terminal/
+  958  clear
+  959  git remote
+  960  git push -u origin main
+  961  git branch -M main
+  962  git remote add origin git@github.com:mkd-mhlongo/repo_using_terminal.git
+  963  git branch -M main
+  964  git push -u origin main
+  965  ssh -T git@github.com
+  966  clear
+  967  cd
+  968  clear
+  969  $ eval "$(ssh-agent -s)"
+  970  eval "$(ssh-agent -s)"
+  971  ssh-add -l
+  972  ssh-add -l -E md5
+  973  ssh-keygen -t rsa
+  974  ssh-add
+  975  ssh-add -l
+  976  ssh -T git@github.com
+  977  cat ~/.ssh/id_ed25519.pub
+  978  ls -al ~/.ssh
+  979  eval "$(ssh-agent -s)"
+  980  ssh-add ~/.ssh/id_ed25296
+  981  ssh-add ~/.ssh/25296
+  982  ssh-add ~/.ssh/id_rsa
+  983  cat ~/.ssh/id_rsa.pub
+  984  ssh-add -l -E sha256
+  985  eval "$(ssh-agent -s)"
+  986  ssh-add -l
+  987  git remote add origin git@github.com:mkd-mhlongo/repo_using_terminal.git
+  988  clear
+  989  ls
+  990  cd repo_using_terminal/
+  991  git remote add origin git@github.com:mkd-mhlongo/repo_using_terminal.git
+  992  git push -u origin main
+  993  git push -u patch-1
+  994  git merge patch-1
+  995  git log
+  996  git checkout patch-1
+  997  git log
+  998  git status
+  999  git clone 
+ 1000  git clone https://github.com/mkd-mhlongo/using_terminal~
+ 1001  git clone git@github.com:mkd-mhlongo/using_terminal.git
+ 1002  ls
+ 1003  cat README.md 
+ 1004  cat heaven.txt 
+ 1005  clear
+ 1006  ls
+ 1007  cat heaven.txt 
+ 1008  cat README.md 
+ 1009  git checkout main
+ 1010  cat heaven.txt 
+ 1011  git clone git@github.com:mkd-mhlongo/using_terminal.git~
+ 1012  git clone git@github.com:mkd-mhlongo/using_terminal.git
+ 1013  git status
+ 1014  git add using_terminal/
+ 1015  git rm --cashed using_terminal/
+ 1016  git rm --cached using_terminal/
+ 1017  -f
+ 1018  git rm -f --cached using_terminal/
+ 1019  clear
+ 1020  git status
+ 1021  git reset --hard
+ 1022  git status
+ 1023  git rm using_terminal/
+ 1024  git log
+ 1025  git pull
+ 1026  git pull origin git@github.com:mkd-mhlongo/using_terminal.git
+ 1027  git pull origin staging
+ 1028  git pull git@github.com:mkd-mhlongo/using_terminal.git~
+ 1029  git pull git@github.com:mkd-mhlongo/using_terminal.git~ From account_name.git.mkd-mhlongo:/account_name/repository_name
+ 1030  git pull git@github.com:mkd-mhlongo/using_terminal.git~ From mkd-mhlongo:/account_name/repository_name
+ 1031  git config pull.rebase false
+ 1032  ls
+ 1033  cat README.md 
+ 1034  git config pull.rebase true
+ 1035  cat heaven.txt 
+ 1036  clear
+ 1037  git branch -vva
+ 1038  git branch git checkout main
+ 1039  git checkout main
+ 1040  clear
+ 1041  git pull git@github.com:mkd-mhlongo/using_terminal.git main
+ 1042  ls
+ 1043  cat heaven.txt 
+ 1044  cat README.md 
+ 1045  git -a branches
+ 1046  git branch -a
+ 1047  git branch -d remotes/origin/main
+ 1048  clear
+ 1049  ls
+ 1050  mkdir git-basic-exercises
+ 1051  cd git-basic-exercises/
+ 1052  clear
+ 1053  ls
+ 1054  ls -a
+ 1055  git init
+ 1056  ls -a
+ 1057  ls
+ 1058  ls -a
+ 1059  git status
+ 1060  touch README.md
+ 1061  ls -a
+ 1062  git status
+ 1063  git log
+ 1064  git add README.md 
+ 1065  git status
+ 1066  clear
+ 1067  git diff
+ 1068  git -v diff
+ 1069  clear
+ 1070  git diff
+ 1071  git status
+ 1072  git rm --cached README.md 
+ 1073  clear
+ 1074  git status
+ 1075  git add README.md 
+ 1076  clear
+ 1077  git status
+ 1078  git commit -m "initial commit"
+ 1079  git status
+ 1080  git log
+ 1081  q
+ 1082  clear
+ 1083  nano README.md 
+ 1084  cat README.md 
+ 1085  git status
+ 1086  git add README.md 
+ 1087  git status
+ 1088  git commit -m "second commit"
+ 1089  git log
+ 1090  git status
+ 1091  clear
+ 1092  nano README.md 
+ 1093  git add README.md 
+ 1094  git commit -m "third commit"
+ 1095  clear
+ 1096  git log
+ 1097  git checkout
+ 1098  commit 86611278e42e888e54e02677d1bba38574ef2b76
+ 1099  git checkout commit 86611278e42e888e54e02677d1bba38574ef2b76
+ 1100  git checkout 86611278e42e888e54e02677d1bba38574ef2b76
+ 1101  cat README.md 
+ 1102  git checkout main
+ 1103  cat README.md 
+ 1104  git branch
+ 1105  git -a branch
+ 1106  git branch -a
+ 1107  clear
+ 1108  git branch
+ 1109  git branch milkshake-flavours
+ 1110  git branch
+ 1111  git checkout milkshake-flavours 
+ 1112  git branch
+ 1113  nano milkshakes.md
+ 1114  git status
+ 1115  git add .
+ 1116  git commit -m "added initial flavours"
+ 1117  git log
+ 1118  git status
+ 1119  checkout main
+ 1120  checkout branch main
+ 1121  git checkout main
+ 1122  git branch
+ 1123  git branch history
+ 1124  git checkout history
+ 1125  git log
+ 1126  git branch
+ 1127  history > history.txt
+ 1128  cat history.txt 
+ 1129  clear
+ 1130  git branch
+ 1131  git log
+ 1132  git status
+ 1133  git add history.txt 
+ 1134  git commit -m "added history"
+ 1135  git log
+ 1136  git branch
+ 1137  git checkout milkshake-flavours 
+ 1138  git log
+ 1139  git branch
+ 1140  clear
+ 1141  git log
+ 1142  git status
+ 1143  nano 35e7a2b23fb4fc25c5d361a9572b424bc303c80c
+ 1144  nano milkshakes.md 
+ 1145  ls
+ 1146  nano milkshakes.md 
+ 1147  git status
+ 1148  git restore milkshakes.md
+ 1149  cat milkshakes.md 
+ 1150  nano README.md 
+ 1151  git status
+ 1152  git add README.md 
+ 1153  git commit -m "random readme changes"
+ 1154  clear
+ 1155  git log
+ 1156  clear
+ 1157  git checkout history
+ 1158  cat README.md 
+ 1159  git branch
+ 1160  rm README.md 
+ 1161  git status
+ 1162  echo "booya" > README.md
+ 1163  git status
+ 1164  cat README.md 
+ 1165  clear
+ 1166  git status
+ 1167  git add README.md 
+ 1168  git commit -m "rewrote readme"
+ 1169  git checkout main
+ 1170  clear
+ 1171  git status
+ 1172  ls
+ 1173  git log
+ 1174  git checkout milkshake-flavours 
+ 1175  ls
+ 1176  git log
+ 1177  git branch
+ 1178  git log
+ 1179  git branch
+ 1180  git add commit 2ca3898e2229746e4100f12fc07bc7dff71e746a
+ 1181  ls
+ 1182  mkdir git-basic-exercises
+ 1183  cd git-basic-exercises/
+ 1184  ls -a
+ 1185  git init
+ 1186  git status
+ 1187  ls -a
+ 1188  touch README.md
+ 1189  ls -a
+ 1190  git log
+ 1191  git add README.md 
+ 1192  git status
+ 1193  git log
+ 1194  git status
+ 1195  git rm --cached README.md 
+ 1196  clear
+ 1197  git status
+ 1198  git add README.md 
+ 1199  git status
+ 1200  git commit -m "initial commit"
+ 1201  git log
+ 1202  nano README.md 
+ 1203  cat README.md 
+ 1204  git status
+ 1205  git add README.md 
+ 1206  git status
+ 1207  git commit -m "second commit"
+ 1208  nano README.md 
+ 1209  git status
+ 1210  git add README.md 
+ 1211  git status
+ 1212  git commit -m "third commit"
+ 1213  git log
+ 1214  git checkout 80a1144c543dffe6e730288e67b58021d3c6e158
+ 1215  cat README.md 
+ 1216  git checkout main
+ 1217  cat README.md 
+ 1218  git branch
+ 1219  git branch milkshake-flavours
+ 1220  git branch
+ 1221  git checkout milkshake-flavours 
+ 1222  git branch
+ 1223  nano milkshakes.md
+ 1224  git status
+ 1225  git add milkshakes.md 
+ 1226  git commit -m "added initial flavours"
+ 1227  git log
+ 1228  git checkout main
+ 1229  git status
+ 1230  ls -a
+ 1231  git branch
+ 1232  git branch history
+ 1233  git checkout history
+ 1234  git branch
+ 1235  git log
+ 1236  git branch
+ 1237  ls -a
+ 1238  history > history.txt
